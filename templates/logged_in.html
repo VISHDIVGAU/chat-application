@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<p>Hello You have Logged in as {{ email }}</p>
+<center>
+<div>
+	<h1>Chat with your peers</h1>
+	{% for user in user_list %}
+	<a href="chat?email={{user['email']}}">{{user['username']}}</a>
+	{% endfor %}
+</div>
+</center>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% from "_formhelpers.html" import render_field %}
+{% block content %}
+{% if message  %}
+<div class="alert alert-secondary" role="alert">
+	<p>{{ message }}</p>
+</div>
+{% endif %}
+<center>
+<div>
+<form method=post>
+	<dl>
+		{{ render_field(form.email) }}
+		{{ render_field(form.password) }}
+	</dl>
+	<p><input type=submit value=Login>
+</form>
+</div>
+</center>
+{% endblock %}
+

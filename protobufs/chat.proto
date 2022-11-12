@@ -1,0 +1,16 @@
+syntax="proto3";
+package grpc;
+message Empty {}
+message Note{
+	string name=1;
+	string message=2;
+	string chat_id=3;
+}
+message ChatId{
+	string chat_id=1;
+}
+service ChatService{
+	rpc ChatStream (ChatId) returns (stream Note);
+	rpc SendNote (Note) returns( Empty);
+}
+
