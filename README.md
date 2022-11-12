@@ -5,15 +5,13 @@ MongoDB for DataBase
 
 Instruction to run the application-:
 System requirements-:
-• Linux operating system
-• Python 3.9 version
-• Mongo DB locally installed (refer website
-https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/ for installation
-instructions)
-• Sudo mkdir –p /data/db
-• sudo chmod 0755 /data/db && sudo chown $USER /data/db
-• Ssh localhost
-• Start mongo db daemon
+1) Linux operating system
+2) Python 3.9 version
+3) Mongo DB locally installed (refer website https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/ for installation instructions)
+4) Sudo mkdir –p /data/db
+5) sudo chmod 0755 /data/db && sudo chown $USER /data/db
+6) Ssh localhost
+7) Start mongo db daemon
 
 1. Install python and mongo dB server on your local machine.
 2. Create a virtual environment.
