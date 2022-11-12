@@ -3,8 +3,8 @@ Flash web framework for Front end
 Grpc and Rest API for backend
 MongoDB for DataBase
 
-Instruction to run the application-:
-System requirements-:
+#Instruction to run the application-:
+#System requirements-:
 1) Linux operating system
 2) Python 3.9 version
 3) Mongo DB locally installed (refer website https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/ for installation instructions)
