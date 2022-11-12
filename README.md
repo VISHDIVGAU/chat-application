@@ -3,8 +3,7 @@ Flash web framework for Front end
 Grpc and Rest API for backend
 MongoDB for DataBase
 
-#Instruction to run the application-:
-#System requirements-:
+# a) System requirements-:
 1) Linux operating system
 2) Python 3.9 version
 3) Mongo DB locally installed (refer website https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/ for installation instructions)
@@ -13,6 +12,7 @@ MongoDB for DataBase
 6) Ssh localhost
 7) Start mongo db daemon
 
+# b) Instruction to run the application-:
 1. Install python and mongo dB server on your local machine.
 2. Create a virtual environment.
 python3 -m venv chatApplication
